@@ -4,9 +4,25 @@ S = {1 \over 2} ah
 $$
 
 #### <a id="content2"> 2. Диаграмма с Mermaid компонентов для веб-приложения: </a>
-
-
-
+```mermaid
+graph LR
+    subgraph Frontend
+        A(HTML)
+        B(CSS)
+        C(JavaScript)
+    end
+    subgraph Backend
+        D(Сервер)
+        E(API)
+        F(Database)
+    end
+    A --> E
+    E --> D
+    D --> F
+    F --> D
+    D --> E
+    E --> A
+```
 
 #### <a id="content3"> 3. Интерактивная карта: </a>
 
