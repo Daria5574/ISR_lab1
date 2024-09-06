@@ -33,6 +33,25 @@ $$
 * "Я, робот" Айзек Азимов
 * "Марсианин" Энди Вейер
 
+#### 7. Блок кода на R:
+```R
+numbers <- 1:10
+print(numbers)
+mean(numbers)
+print(mean(numbers))
+```
+
+Блок кода на Julia:
+```Julia
+numbers = [1, 2, 3, 4, 5]
+sum = 0
+for number in numbers
+    sum += number
+end
+println("Сумма чисел в массиве: ", sum)
+```
+
+
 
 #### 8. Цитата:
 > **„Без музыки жизнь была бы заблуждением.“**
